@@ -3,6 +3,7 @@ import { PlusIcon, DashboardIcon, BoardIcon } from './icons';
 import { View } from '../App';
 
 interface HeaderProps {
+  
   onAddCompany: () => void;
   currentView: View;
   onSetView: (view: View) => void;
